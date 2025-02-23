@@ -1,0 +1,43 @@
+@import url(kidcalc-theme1-green.css);
+@import url(kidcalc-theme2-blue.css);
+@import url(kidcalc-theme3-yellow.css);
+
+body{
+    background-image: url('../kidcalc/assets/css/images/Airbrush-Image-Enhancer.jpg');
+    background-size: cover; 
+    background-position: center; 
+    background-repeat: no-repeat; 
+    height: 200vh; 
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    margin: 0;
+}
+
+.square {
+    width: 700px; 
+    height: 350px;
+    background-color: white;
+    border: 2px solid black; 
+}
+
+#link{
+    text-decoration: none; color: black;
+}
+
+
+#green{
+    background-color: rgb(18, 241, 47); font-size: large;
+}
+
+#blue{
+    background-color: rgb(47, 68, 255); font-size: large;
+}
+
+#yellow{
+    display: grid;
+    grid-auto-flow: column;
+    grid-template-columns: auto;
+    background-color: rgb(234, 238, 9); font-size: large; 
+}
+
