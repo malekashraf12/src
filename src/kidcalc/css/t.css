@@ -1,0 +1,12 @@
+@import url(kidcalc-theme1-green.css);
+@import url(kidcalc-theme2-blue.css);
+@import url(kidcalc-theme3-yellow.css);
+
+
+
+p {
+    font-size: 20px;
+    color: rgb(0, 0, 0);
+    text-align: center;
+    font-family: 'Courier New', Courier, monospace;
+}
